@@ -1,0 +1,132 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #000000, #171717);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 50px;
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu_btn {
+    padding: 10px 20px;
+    background-color: #cc0000;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1em;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu_btn:hover {
+    background-color: #4d0000;
+}
+
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        background:linear-gradient(to right, #0e0d0d, #252525) ;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+
+.card {
+    background:linear-gradient(to right, #0e0d0d, #252525) ;
+    border: 1px solid #cc0000;
+    padding: 10px;
+    width: 280px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.card_photo {
+    max-width: 100%;
+    height: auto;
+}
+.close_card{
+    display: none;
+    background-color: #990000;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.close_card:hover{
+    background-color: #4d0000;
+}
+
+.title {
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+    color: white;
+    
+}
+.info_car{
+display: none;
+
+}
+
+.card_btn {
+    background-color:  	 #990000;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.card_btn:hover {
+    background-color: #4d0000;
+}
+.none{
+    display: none;
+}
+.Profil{
+    background:linear-gradient(to right, #0e0d0d, #252525) ;
+    border: 1px solid #cc0000;
+    padding: 10px;
+    width: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 0;
+    border-radius: 15px;
+    position: absolute;
+color: #4d0000;
+    font-family: cursive;
+}
+.reister{
+    display: none;
+}
